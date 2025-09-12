@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>button_Cari</name>
    <tag></tag>
-   <elementGuidId>5b978bea-c68c-4b79-bcae-1ba5c07bcc65</elementGuidId>
+   <elementGuidId>c423e409-c7b2-4f53-b4dc-f9d858e58db6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btnLogin']</value>
+         <value>//button[@id='btnCariBUModal']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#btnLogin</value>
+         <value>#btnCariBUModal</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot; Login&quot;i]</value>
+         <value>#btnCariBUModal</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>635bcb31-7398-4c3c-adbd-9b91ef224117</webElementGuid>
+      <webElementGuid>94294002-7cc2-4efc-98e3-9c2cae03c543</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,86 +37,102 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>187f2a9f-7600-4eda-941d-71608f7ad875</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-success</value>
-      <webElementGuid>b4558166-7ae6-465b-af44-b621b7cff04a</webElementGuid>
+      <webElementGuid>7f9c7f2d-5508-464d-ab0a-e8b81c1c20d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>btnLogin</value>
-      <webElementGuid>bf7042be-8874-48d2-b776-88efcfa4371b</webElementGuid>
+      <value>btnCariBUModal</value>
+      <webElementGuid>7e73d963-fede-4b77-aaa1-95c6a110cc00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary</value>
+      <webElementGuid>edcddc23-6641-47f0-b339-7825a15d92b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>  Login</value>
-      <webElementGuid>6bc83052-a915-473e-96b3-5dc75e924ed8</webElementGuid>
+      <value>  Cari</value>
+      <webElementGuid>5ecd2dc3-970e-4c33-ac8d-75631f1e669f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btnLogin&quot;)</value>
-      <webElementGuid>445870ae-b6be-4a0b-a351-c978bebd71a4</webElementGuid>
+      <value>id(&quot;btnCariBUModal&quot;)</value>
+      <webElementGuid>e0405404-b754-47a0-a6d1-d25323fa3b68</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='btnLogin']</value>
-      <webElementGuid>63b42dad-b3c5-4935-9fa5-664d94594e10</webElementGuid>
+      <value>//button[@id='btnCariBUModal']</value>
+      <webElementGuid>060d38e7-a3b0-4ea0-a63a-869691d3f3d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='frmLogin']/div[5]/div/button</value>
-      <webElementGuid>4f6a13b3-559d-4116-af2b-20856b137747</webElementGuid>
+      <value>//form[@id='frmUsermodal']/div[2]/label[3]/button</value>
+      <webElementGuid>6d7ae85e-9664-4cf8-a753-f9ff902f6fca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lupa password?'])[1]/following::button[1]</value>
-      <webElementGuid>6fddb4c1-4a61-4db0-88cc-df969edf0828</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masukkan Kata Pencarian'])[1]/following::button[1]</value>
+      <webElementGuid>ef5c2d35-9d80-40ec-bd3d-72aa3c16e3ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>78a584ea-5b96-4b9d-ae53-3eac7cbaced9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Opsi Pencarian'])[1]/following::button[1]</value>
+      <webElementGuid>cff0e382-9df6-4137-93ea-ebf39487f486</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aksi'])[1]/preceding::button[1]</value>
+      <webElementGuid>43ca4a44-a8f4-467a-a393-bf4ffa97e216</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode BU'])[2]/preceding::button[1]</value>
+      <webElementGuid>fc731800-130a-4c6e-b465-809ac11bc62c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>846c5ae7-5c9c-41cf-9cbb-26737bac4253</webElementGuid>
+      <value>//div[2]/label[3]/button</value>
+      <webElementGuid>38cf197b-bd06-4c2d-b086-942dc49f9d75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @id = 'btnLogin' and (text() = '  Login' or . = '  Login')]</value>
-      <webElementGuid>e4f7f0f2-8b2d-40a8-bda0-838b03270528</webElementGuid>
+      <value>//button[@type = 'button' and @id = 'btnCariBUModal' and (text() = '  Cari' or . = '  Cari')]</value>
+      <webElementGuid>316aced4-0bf4-461c-8cd2-8c9acb7ae6a5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

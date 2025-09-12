@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>button_Badan Usaha_btnSearchBU</name>
    <tag></tag>
-   <elementGuidId>5b978bea-c68c-4b79-bcae-1ba5c07bcc65</elementGuidId>
+   <elementGuidId>a852110a-901c-4929-90a7-33492a6d57d1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btnLogin']</value>
+         <value>//button[@id='btnSearchBU']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#btnLogin</value>
+         <value>#btnSearchBU</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot; Login&quot;i]</value>
+         <value>#btnSearchBU</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>635bcb31-7398-4c3c-adbd-9b91ef224117</webElementGuid>
+      <webElementGuid>78813e05-7099-40f4-a547-609dca7a3a22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,71 +37,63 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>187f2a9f-7600-4eda-941d-71608f7ad875</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-success</value>
-      <webElementGuid>b4558166-7ae6-465b-af44-b621b7cff04a</webElementGuid>
+      <webElementGuid>a678e134-2d80-4fc8-ae47-053425e0a6dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>btnLogin</value>
-      <webElementGuid>bf7042be-8874-48d2-b776-88efcfa4371b</webElementGuid>
+      <value>btnSearchBU</value>
+      <webElementGuid>0e4242f6-9145-4c7a-8a53-414934bc91d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>class</name>
       <type>Main</type>
-      <value>  Login</value>
-      <webElementGuid>6bc83052-a915-473e-96b3-5dc75e924ed8</webElementGuid>
+      <value>btn btn-secondary</value>
+      <webElementGuid>24786414-943b-4551-8616-4f370bf64f60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btnLogin&quot;)</value>
-      <webElementGuid>445870ae-b6be-4a0b-a351-c978bebd71a4</webElementGuid>
+      <value>id(&quot;btnSearchBU&quot;)</value>
+      <webElementGuid>7c6a0743-8cb1-4825-9d50-bbf074fcdfb7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='btnLogin']</value>
-      <webElementGuid>63b42dad-b3c5-4935-9fa5-664d94594e10</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//form[@id='frmLogin']/div[5]/div/button</value>
-      <webElementGuid>4f6a13b3-559d-4116-af2b-20856b137747</webElementGuid>
+      <value>//button[@id='btnSearchBU']</value>
+      <webElementGuid>df91f3b2-89c6-443d-b615-03ecaf55ace2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lupa password?'])[1]/following::button[1]</value>
-      <webElementGuid>6fddb4c1-4a61-4db0-88cc-df969edf0828</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Badan Usaha'])[1]/following::button[1]</value>
+      <webElementGuid>6d623da1-15f2-48c3-a620-fe3a8d5a6222</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>78a584ea-5b96-4b9d-ae53-3eac7cbaced9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Referensi Sub PKS Badan Usaha'])[1]/following::button[1]</value>
+      <webElementGuid>ba19b46e-cb9e-4eff-b71d-e6e485a3f49c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show 10 rows'])[1]/preceding::button[2]</value>
+      <webElementGuid>a1defec9-789c-4c47-a62a-65d41da04a1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,14 +101,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>846c5ae7-5c9c-41cf-9cbb-26737bac4253</webElementGuid>
+      <webElementGuid>a4e89740-b422-4f35-ae64-279870b8f257</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @id = 'btnLogin' and (text() = '  Login' or . = '  Login')]</value>
-      <webElementGuid>e4f7f0f2-8b2d-40a8-bda0-838b03270528</webElementGuid>
+      <value>//button[@type = 'button' and @id = 'btnSearchBU']</value>
+      <webElementGuid>a557616c-491d-4c19-a553-4e314ab3f07b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

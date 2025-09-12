@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>button_Pilih</name>
    <tag></tag>
-   <elementGuidId>5b978bea-c68c-4b79-bcae-1ba5c07bcc65</elementGuidId>
+   <elementGuidId>dbc19f9f-beff-4f62-aeb2-7c49334d8f07</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btnLogin']</value>
+         <value>(//button[@type='button'])[11]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#btnLogin</value>
+         <value>button.btn.btn-primary.btn-sm.btn-pilih</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot; Login&quot;i]</value>
+         <value>internal:role=row[name=&quot; Pilih 01730994 ASASHI CIPTA MANDIRI PT&quot;i] >> internal:role=button</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>635bcb31-7398-4c3c-adbd-9b91ef224117</webElementGuid>
+      <webElementGuid>5bf54b3f-2745-4fd3-ab0e-e891660b38ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-sm btn-pilih</value>
+      <webElementGuid>bfacd36c-ce2c-4c12-a0df-e8f668091baf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,86 +45,78 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>187f2a9f-7600-4eda-941d-71608f7ad875</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-success</value>
-      <webElementGuid>b4558166-7ae6-465b-af44-b621b7cff04a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>btnLogin</value>
-      <webElementGuid>bf7042be-8874-48d2-b776-88efcfa4371b</webElementGuid>
+      <webElementGuid>f333ea7f-02a7-431c-9be6-7d1f7bb0d553</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>  Login</value>
-      <webElementGuid>6bc83052-a915-473e-96b3-5dc75e924ed8</webElementGuid>
+      <value> Pilih</value>
+      <webElementGuid>7d32bf45-51b1-46a0-bc9c-461f1a3a9316</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btnLogin&quot;)</value>
-      <webElementGuid>445870ae-b6be-4a0b-a351-c978bebd71a4</webElementGuid>
+      <value>id(&quot;tblPencarian&quot;)/tbody[1]/tr[1]/td[@class=&quot;dtfc-fixed-start dtfc-fixed-left&quot;]/button[@class=&quot;btn btn-primary btn-sm btn-pilih&quot;]</value>
+      <webElementGuid>4b18305c-64c0-4b8a-aa81-69eb197b5e0b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='btnLogin']</value>
-      <webElementGuid>63b42dad-b3c5-4935-9fa5-664d94594e10</webElementGuid>
+      <value>(//button[@type='button'])[11]</value>
+      <webElementGuid>314f57ba-e3e0-42b1-bcbe-a7638565b1ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='frmLogin']/div[5]/div/button</value>
-      <webElementGuid>4f6a13b3-559d-4116-af2b-20856b137747</webElementGuid>
+      <value>//table[@id='tblPencarian']/tbody/tr/td/button</value>
+      <webElementGuid>dcaccfe0-ed99-4e6e-95b5-e79243c1389d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lupa password?'])[1]/following::button[1]</value>
-      <webElementGuid>6fddb4c1-4a61-4db0-88cc-df969edf0828</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama BU'])[3]/following::button[1]</value>
+      <webElementGuid>7021a16f-cb2b-43ed-a168-04c8b0723358</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>78a584ea-5b96-4b9d-ae53-3eac7cbaced9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode BU'])[3]/following::button[1]</value>
+      <webElementGuid>4b5a4a36-e8b4-451d-9eb4-e00a9aa53b15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ASASHI CIPTA MANDIRI PT'])[1]/preceding::button[1]</value>
+      <webElementGuid>b5cd06c6-78cc-46b0-a8ca-00ed2bb6a2a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>846c5ae7-5c9c-41cf-9cbb-26737bac4253</webElementGuid>
+      <value>//td/button</value>
+      <webElementGuid>4bd84ae9-2f9d-4610-ab55-763a4b828894</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @id = 'btnLogin' and (text() = '  Login' or . = '  Login')]</value>
-      <webElementGuid>e4f7f0f2-8b2d-40a8-bda0-838b03270528</webElementGuid>
+      <value>//button[@type = 'button' and (text() = ' Pilih' or . = ' Pilih')]</value>
+      <webElementGuid>0ba06918-b400-45f9-b1ef-fe87374d746a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

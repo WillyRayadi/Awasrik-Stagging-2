@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_txtpassword</name>
+   <name>input_Opsi Pencarian_paramCariBU</name>
    <tag></tag>
-   <elementGuidId>eba9688a-4d06-454d-9b4b-dc04393afb33</elementGuidId>
+   <elementGuidId>bbf8665e-b711-4014-a457-6e535d53ee30</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='txtpassword']</value>
+         <value>//input[@id='paramCariBU']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#txtpassword</value>
+         <value>#paramCariBU</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#txtpassword</value>
+         <value>internal:label=&quot;Masukkan Kata Pencarian&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>2068d2cf-fc61-4e29-a4d4-13f6c2a8f705</webElementGuid>
+      <webElementGuid>9b6cdd18-390b-4f04-8294-dbcbeada452f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>5bc12971-ae92-4b30-8ded-745e9b82addb</webElementGuid>
+      <value>text</value>
+      <webElementGuid>4c676c49-67fb-4de8-a465-16844667093c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,62 +45,62 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>e59278ba-6bd1-48d9-90f1-51319a1a06f4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>txtpassword</value>
-      <webElementGuid>2fb56095-4d5c-4ae7-ad55-44949c02b8ee</webElementGuid>
+      <webElementGuid>ba0e12c6-0d1a-4fbe-bfb4-a4951052c471</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>txtpassword</value>
-      <webElementGuid>35d696b6-ceaa-4661-be7d-9095f9392f3b</webElementGuid>
+      <value>paramCariBU</value>
+      <webElementGuid>4b299394-16b4-47e1-8895-4ff1393aa3e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>paramCariBU</value>
+      <webElementGuid>938aaab8-7f2a-4bcf-853b-21ae8ca67f86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;txtpassword&quot;)</value>
-      <webElementGuid>c472530a-5ede-48b0-9892-5ee1e128f2e1</webElementGuid>
+      <value>id(&quot;paramCariBU&quot;)</value>
+      <webElementGuid>971a9fc3-47a1-483a-9310-09af411ae047</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='txtpassword']</value>
-      <webElementGuid>3a0a5719-99be-46c9-852f-6932d45b4450</webElementGuid>
+      <value>//input[@id='paramCariBU']</value>
+      <webElementGuid>f367f34a-0bb8-46c2-919b-b90831fbb065</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='frmLogin']/div[2]/div/input</value>
-      <webElementGuid>139225d4-4963-43a0-8507-55f244cf4cde</webElementGuid>
+      <value>//form[@id='frmUsermodal']/div[2]/label[2]/div/input</value>
+      <webElementGuid>d4a46dc4-6a33-4a05-960d-7bf3716e386e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/input</value>
-      <webElementGuid>c3910b39-ffb4-48f6-903c-7b56d65e3ef5</webElementGuid>
+      <value>//label[2]/div/input</value>
+      <webElementGuid>e4c1c658-1e92-4950-93e8-44ca6cd77eb6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'password' and @name = 'txtpassword' and @id = 'txtpassword']</value>
-      <webElementGuid>a1aeb0ef-c1f8-43a6-8814-d420934adcae</webElementGuid>
+      <value>//input[@type = 'text' and @id = 'paramCariBU' and @name = 'paramCariBU']</value>
+      <webElementGuid>6620bf63-8052-429b-95c7-6e0789119cfe</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
