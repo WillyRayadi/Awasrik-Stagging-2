@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Input_Data_Analisa_Data_Mandiri" time="17.663" tests="2" failures="0" errors="0">
+   <testsuite name="Input_Data_Analisa_Data_Mandiri" tests="2" failures="0" errors="0" time="17.663" skipped="0" timestamp="12-09-2025T10:50:33" hostname="Asani - 0000-willy" id="Test Suites/Input Analisa Data Mandiri/Input_Data_Analisa_Data_Mandiri">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Asani\\Documents\\GitHub\\Awasrik-Stagging-2\\Reports\\20250912_105027\\Input Analisa Data Mandiri\\Input_Data_Analisa_Data_Mandiri\\20250912_105027"/>
+         <property name="logFiles" value="C:\\Users\\Asani\\Documents\\GitHub\\Awasrik-Stagging-2\\Reports\\20250912_105027\\Input Analisa Data Mandiri\\Input_Data_Analisa_Data_Mandiri\\20250912_105027\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Asani - 0000-willy"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 133.0.0.0"/>
+         <property name="hostAddress" value="172.120.40.38"/>
+         <property name="sessionId" value="2ea9d3ea48e1b2c91da0b4d95b9899c5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Awasrik/Login/TC-001_Login_User_Valid" time="10.971" classname="Test Cases/Awasrik/Login/TC-001_Login_User_Valid" status="PASSED">
+         <system-out><![CDATA[12-09-2025T10:50:34 - [TEST_CASE][PASSED] - Test Cases/Awasrik/Login/TC-001_Login_User_Valid: Test Cases/Awasrik/Login/TC-001_Login_User_Valid
+
+12-09-2025T10:50:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-09-2025T10:50:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-09-2025T10:50:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-09-2025T10:50:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-09-2025T10:50:38 - [TEST_STEP][PASSED] - navigateToUrl("https://qc167.bpjs-kesehatan.go.id/awasrik/Home/Login"): Navigate to 'https://qc167.bpjs-kesehatan.go.id/awasrik/Home/Login' successfully
+
+12-09-2025T10:50:41 - [MESSAGE][PASSED] - Navigate to 'https://qc167.bpjs-kesehatan.go.id/awasrik/Home/Login' successfully
+
+12-09-2025T10:50:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Awasrik  Log in/input_v 5.2.0_txtusername"), username): Text '09004' is set on object 'Object Repository/Page_Awasrik  Log in/input_v 5.2.0_txtusername'
+
+12-09-2025T10:50:42 - [MESSAGE][PASSED] - Text '09004' is set on object 'Object Repository/Page_Awasrik  Log in/input_v 5.2.0_txtusername'
+
+12-09-2025T10:50:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Awasrik  Log in/input_Username_txtpassword"), password): Text ****** has been set on object 'Object Repository/Page_Awasrik  Log in/input_Username_txtpassword'
+
+12-09-2025T10:50:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Awasrik  Log in/input_Username_txtpassword'
+
+12-09-2025T10:50:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Awasrik  Log in/button_Login")): Object: 'Object Repository/Page_Awasrik  Log in/button_Login' is clicked on
+
+12-09-2025T10:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Awasrik  Log in/button_Login' is clicked on
+
+12-09-2025T10:50:43 - [TEST_STEP][PASSED] - verifyTextPresent("Next Project", false): Text 'Next Project' is present on page 
+
+12-09-2025T10:50:45 - [MESSAGE][PASSED] - Text 'Next Project' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Awasrik/Analisa Data/TC-001_Input_Analisa_Data" time="6.146" classname="Test Cases/Awasrik/Analisa Data/TC-001_Input_Analisa_Data" status="PASSED">
+         <system-out><![CDATA[12-09-2025T10:50:45 - [TEST_CASE][PASSED] - Test Cases/Awasrik/Analisa Data/TC-001_Input_Analisa_Data: Test Cases/Awasrik/Analisa Data/TC-001_Input_Analisa_Data
+
+12-09-2025T10:50:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Awasrik  Selamat Datang/p_Analisa Data Mandiri")): Object: 'Object Repository/Page_Awasrik  Selamat Datang/p_Analisa Data Mandiri' is clicked on
+
+12-09-2025T10:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Awasrik  Selamat Datang/p_Analisa Data Mandiri' is clicked on
+
+12-09-2025T10:50:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Awasrik  Analisa Data Mandiri/input_Kode BU PKS_txtKodeBUSar"), "01732349"): Text '01732349' is set on object 'Object Repository/Page_Awasrik  Analisa Data Mandiri/input_Kode BU PKS_txtKodeBUSar'
+
+12-09-2025T10:50:47 - [MESSAGE][PASSED] - Text '01732349' is set on object 'Object Repository/Page_Awasrik  Analisa Data Mandiri/input_Kode BU PKS_txtKodeBUSar'
+
+12-09-2025T10:50:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Awasrik  Analisa Data Mandiri/button_Cari")): Object: 'Object Repository/Page_Awasrik  Analisa Data Mandiri/button_Cari' is clicked on
+
+12-09-2025T10:50:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Awasrik  Analisa Data Mandiri/button_Cari' is clicked on
+
+12-09-2025T10:50:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Awasrik  Analisa Data Mandiri/button_Tambah")): Object: 'Object Repository/Page_Awasrik  Analisa Data Mandiri/button_Tambah' is clicked on
+
+12-09-2025T10:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Awasrik  Analisa Data Mandiri/button_Tambah' is clicked on
+
+12-09-2025T10:50:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Awasrik  Analisa Data Mandiri/input_Tanggal Pemeriksaan_swalTglPeriksa")): Object: 'Object Repository/Page_Awasrik  Analisa Data Mandiri/input_Tanggal Pemeriksaan_swalTglPeriksa' is clicked on
+
+12-09-2025T10:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Awasrik  Analisa Data Mandiri/input_Tanggal Pemeriksaan_swalTglPeriksa' is clicked on
+
+12-09-2025T10:50:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Awasrik  Analisa Data Mandiri/td_13")): Object: 'Object Repository/Page_Awasrik  Analisa Data Mandiri/td_13' is clicked on
+
+12-09-2025T10:50:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Awasrik  Analisa Data Mandiri/td_13' is clicked on
+
+12-09-2025T10:50:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Awasrik  Analisa Data Mandiri/button_Simpan")): Object: 'Object Repository/Page_Awasrik  Analisa Data Mandiri/button_Simpan' is clicked on
+
+12-09-2025T10:50:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Awasrik  Analisa Data Mandiri/button_Simpan' is clicked on
+
+12-09-2025T10:50:50 - [TEST_STEP][PASSED] - if (verifyTextPresent("Progress Berhasil", false, OPTIONAL)): Text 'Perhatian Badan Usaha ini terdapat pada data pemeriksaan kantor tahap: Perencanaan Kantor' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Perhatian Badan Usaha ini terdapat pada data pemeriksaan kantor tahap: Perencanaan Kantor' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1746)
+	at TC-001_Input_Analisa_Data.run(TC-001_Input_Analisa_Data:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757649027220.run(TempTestSuite1757649027220.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+12-09-2025T10:50:50 - [MESSAGE][WARNING] - Text 'Progress Berhasil' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Progress Berhasil' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1746)
+	at TC-001_Input_Analisa_Data.run(TC-001_Input_Analisa_Data:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757649027220.run(TempTestSuite1757649027220.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+12-09-2025T10:50:51 - [MESSAGE][WARNING] - Text 'Perhatian Badan Usaha ini terdapat pada data pemeriksaan kantor tahap: Perencanaan Kantor' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Perhatian Badan Usaha ini terdapat pada data pemeriksaan kantor tahap: Perencanaan Kantor' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1746)
+	at TC-001_Input_Analisa_Data.run(TC-001_Input_Analisa_Data:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1757649027220.run(TempTestSuite1757649027220.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+12-09-2025T10:50:51 - [TEST_STEP][PASSED] - else if (verifyTextPresent("Perhatian Badan Usaha ini terdapat pada data pemeriksaan kantor tahap: Perencanaan Kantor", false, OPTIONAL)): null
+
+12-09-2025T10:50:51 - [TEST_STEP][PASSED] - else: ⚠️ Tidak ada popup yang sesuai ditemukan
+
+12-09-2025T10:50:51 - [TEST_STEP][PASSED] - comment("⚠️ Tidak ada popup yang sesuai ditemukan"): ⚠️ Tidak ada popup yang sesuai ditemukan
+
+12-09-2025T10:50:51 - [MESSAGE][INFO] - ⚠️ Tidak ada popup yang sesuai ditemukan]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-09-2025T10:50:33 - [TEST_SUITE][PASSED] - Input_Data_Analisa_Data_Mandiri: Test Cases/Awasrik/Analisa Data/TC-001_Input_Analisa_Data]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

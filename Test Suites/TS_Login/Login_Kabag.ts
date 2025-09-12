@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login_Kabag</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>87a98466-b10b-482d-9a3a-b4fd51865ef9</testSuiteGuid>
+   <testCaseLink>
+      <guid>11fbf952-db22-47b6-b6a4-2f5cad0712f6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Awasrik/Login/TC-001_Login_User_Valid</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>GlobalVariable.userkabag</value>
+         <variableId>ed99e854-ab97-444c-aedf-4adbc45c5d03</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>GlobalVariable.passwordkabag</value>
+         <variableId>fcb81cf2-f9ed-452e-8310-898bb66e3135</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

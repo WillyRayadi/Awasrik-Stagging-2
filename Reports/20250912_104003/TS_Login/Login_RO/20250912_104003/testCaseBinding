@@ -1,0 +1,1 @@
+{"testCaseName":"Test Cases/Awasrik/Login/TC-001_Login_User_Valid","testCaseId":"Test Cases/Awasrik/Login/TC-001_Login_User_Valid","iterationVariableName":"","bindedValues":{"password":"GlobalVariable.passwordro","username":"GlobalVariable.userro"}}

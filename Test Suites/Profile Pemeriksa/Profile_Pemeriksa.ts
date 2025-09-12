@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Profile_Pemeriksa</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>f78f8aa0-0291-4f27-9958-1a44b5438adf</testSuiteGuid>
+   <testCaseLink>
+      <guid>30f2a163-3ea7-4ec7-acc2-ceffbb194c00</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Awasrik/Login/TC-001_Login_User_Valid</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>GlobalVariable.userro1</value>
+         <variableId>ed99e854-ab97-444c-aedf-4adbc45c5d03</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>GlobalVariable.passwordro1</value>
+         <variableId>fcb81cf2-f9ed-452e-8310-898bb66e3135</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>52f75870-675a-49f6-9078-1eaba838d912</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Awasrik/Profile Pemeriksa/TC-001_Profile_Pemeriksa</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

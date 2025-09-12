@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Input_Data_Analisa_Data_Mandiri</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>345fc318-1f96-4739-b4be-96bd47a0ed4b</testSuiteGuid>
+   <testCaseLink>
+      <guid>fc33aec5-bdd9-4855-a358-c559424ecf13</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Awasrik/Login/TC-001_Login_User_Valid</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>GlobalVariable.userro</value>
+         <variableId>ed99e854-ab97-444c-aedf-4adbc45c5d03</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>GlobalVariable.passwordro</value>
+         <variableId>fcb81cf2-f9ed-452e-8310-898bb66e3135</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8d47abb2-d340-4a81-a05f-3a1b9f5fc6d6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Awasrik/Analisa Data/TC-001_Input_Analisa_Data</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

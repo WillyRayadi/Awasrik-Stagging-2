@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Profile_Kantor_Cabang</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>ad1d4ede-acd8-40d4-a4dc-e9dd3617d271</testSuiteGuid>
+   <testCaseLink>
+      <guid>5ef39c0b-63cf-47ac-98d2-1ef771d13183</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Awasrik/Login/TC-001_Login_User_Valid</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>GlobalVariable.userkabag</value>
+         <variableId>ed99e854-ab97-444c-aedf-4adbc45c5d03</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>GlobalVariable.passwordkabag</value>
+         <variableId>fcb81cf2-f9ed-452e-8310-898bb66e3135</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b058a379-376f-4a96-9501-da094554937a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Awasrik/Profile Pemeriksa/TC-002_Profile_Kantor_Cabang</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

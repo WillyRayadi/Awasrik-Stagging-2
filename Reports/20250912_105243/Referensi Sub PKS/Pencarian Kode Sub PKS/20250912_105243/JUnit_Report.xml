@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pencarian Kode Sub PKS" time="22.802" tests="2" failures="0" errors="0">
+   <testsuite name="Pencarian Kode Sub PKS" tests="2" failures="0" errors="0" time="22.802" skipped="0" timestamp="12-09-2025T10:52:49" hostname="Asani - 0000-willy" id="Test Suites/Referensi Sub PKS/Pencarian Kode Sub PKS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Asani\\Documents\\GitHub\\Awasrik-Stagging-2\\Reports\\20250912_105243\\Referensi Sub PKS\\Pencarian Kode Sub PKS\\20250912_105243"/>
+         <property name="logFiles" value="C:\\Users\\Asani\\Documents\\GitHub\\Awasrik-Stagging-2\\Reports\\20250912_105243\\Referensi Sub PKS\\Pencarian Kode Sub PKS\\20250912_105243\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Asani - 0000-willy"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 133.0.0.0"/>
+         <property name="hostAddress" value="172.120.40.38"/>
+         <property name="sessionId" value="a5232db23c1fdce8c62c950625dc6153"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Awasrik/Login/TC-001_Login_User_Valid" time="14.071" classname="Test Cases/Awasrik/Login/TC-001_Login_User_Valid" status="PASSED">
+         <system-out><![CDATA[12-09-2025T10:52:50 - [TEST_CASE][PASSED] - Test Cases/Awasrik/Login/TC-001_Login_User_Valid: Test Cases/Awasrik/Login/TC-001_Login_User_Valid
+
+12-09-2025T10:52:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-09-2025T10:52:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-09-2025T10:52:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-09-2025T10:52:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-09-2025T10:52:53 - [TEST_STEP][PASSED] - navigateToUrl("https://qc167.bpjs-kesehatan.go.id/awasrik/Home/Login"): Navigate to 'https://qc167.bpjs-kesehatan.go.id/awasrik/Home/Login' successfully
+
+12-09-2025T10:52:59 - [MESSAGE][PASSED] - Navigate to 'https://qc167.bpjs-kesehatan.go.id/awasrik/Home/Login' successfully
+
+12-09-2025T10:52:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Awasrik  Log in/input_v 5.2.0_txtusername"), username): Text '09004' is set on object 'Object Repository/Page_Awasrik  Log in/input_v 5.2.0_txtusername'
+
+12-09-2025T10:53:01 - [MESSAGE][PASSED] - Text '09004' is set on object 'Object Repository/Page_Awasrik  Log in/input_v 5.2.0_txtusername'
+
+12-09-2025T10:53:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Awasrik  Log in/input_Username_txtpassword"), password): Text ****** has been set on object 'Object Repository/Page_Awasrik  Log in/input_Username_txtpassword'
+
+12-09-2025T10:53:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Awasrik  Log in/input_Username_txtpassword'
+
+12-09-2025T10:53:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Awasrik  Log in/button_Login")): Object: 'Object Repository/Page_Awasrik  Log in/button_Login' is clicked on
+
+12-09-2025T10:53:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Awasrik  Log in/button_Login' is clicked on
+
+12-09-2025T10:53:02 - [TEST_STEP][PASSED] - verifyTextPresent("Next Project", false): Text 'Next Project' is present on page 
+
+12-09-2025T10:53:04 - [MESSAGE][PASSED] - Text 'Next Project' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Awasrik/Referensi Sub PKS/TC-001_Search_Sub_PKS" time="8.07" classname="Test Cases/Awasrik/Referensi Sub PKS/TC-001_Search_Sub_PKS" status="PASSED">
+         <system-out><![CDATA[12-09-2025T10:53:04 - [TEST_CASE][PASSED] - Test Cases/Awasrik/Referensi Sub PKS/TC-001_Search_Sub_PKS: Test Cases/Awasrik/Referensi Sub PKS/TC-001_Search_Sub_PKS
+
+12-09-2025T10:53:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Awasrik  Selamat Datang/a_Referensi")): Object: 'Object Repository/Page_Awasrik  Selamat Datang/a_Referensi' is clicked on
+
+12-09-2025T10:53:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Awasrik  Selamat Datang/a_Referensi' is clicked on
+
+12-09-2025T10:53:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Awasrik  Selamat Datang/p_Referensi Sub PKS")): Object: 'Object Repository/Page_Awasrik  Selamat Datang/p_Referensi Sub PKS' is clicked on
+
+12-09-2025T10:53:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Awasrik  Selamat Datang/p_Referensi Sub PKS' is clicked on
+
+12-09-2025T10:53:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/button_Badan Usaha_btnSearchBU")): Object: 'Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/button_Badan Usaha_btnSearchBU' is clicked on
+
+12-09-2025T10:53:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/button_Badan Usaha_btnSearchBU' is clicked on
+
+12-09-2025T10:53:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/input_Opsi Pencarian_paramCariBU"), "cipta"): Text 'cipta' is set on object 'Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/input_Opsi Pencarian_paramCariBU'
+
+12-09-2025T10:53:07 - [MESSAGE][PASSED] - Text 'cipta' is set on object 'Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/input_Opsi Pencarian_paramCariBU'
+
+12-09-2025T10:53:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/button_Cari")): Object: 'Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/button_Cari' is clicked on
+
+12-09-2025T10:53:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/button_Cari' is clicked on
+
+12-09-2025T10:53:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/button_Pilih")): Object: 'Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/button_Pilih' is clicked on
+
+12-09-2025T10:53:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/button_Pilih' is clicked on
+
+12-09-2025T10:53:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/button_Cari_1")): Object: 'Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/button_Cari_1' is clicked on
+
+12-09-2025T10:53:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/button_Cari_1' is clicked on
+
+12-09-2025T10:53:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/span_Excel")): Object: 'Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/span_Excel' is clicked on
+
+12-09-2025T10:53:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/span_Excel' is clicked on
+
+12-09-2025T10:53:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/span_CSV")): Object: 'Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/span_CSV' is clicked on
+
+12-09-2025T10:53:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/span_CSV' is clicked on
+
+12-09-2025T10:53:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/span_Print")): Object: 'Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/span_Print' is clicked on
+
+12-09-2025T10:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/span_Print' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-09-2025T10:52:49 - [TEST_SUITE][PASSED] - Pencarian Kode Sub PKS: Test Cases/Awasrik/Referensi Sub PKS/TC-001_Search_Sub_PKS]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

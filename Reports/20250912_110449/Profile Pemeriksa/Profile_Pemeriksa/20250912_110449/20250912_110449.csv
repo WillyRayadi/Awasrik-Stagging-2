@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Profile_Pemeriksa,Chrome 133.0.0.0,,,12-09-2025 11:04:59,12-09-2025 11:05:18,18.903s,PASSED
+,,,,,,,
+Test Cases/Awasrik/Login/TC-001_Login_User_Valid,Chrome 133.0.0.0,,,12-09-2025 11:05:00,12-09-2025 11:05:12,11.871s,PASSED
+"openBrowser("""")",Chrome 133.0.0.0,,,12-09-2025 11:05:00,12-09-2025 11:05:05,4.551s,PASSED
+"navigateToUrl(""https://qc167.bpjs-kesehatan.go.id/awasrik/Home/Login"")",Chrome 133.0.0.0,,,12-09-2025 11:05:05,12-09-2025 11:05:07,1.902s,PASSED
+"setText(findTestObject(""Object Repository/Page_Awasrik  Log in/input_v 5.2.0_txtusername""), username)",Chrome 133.0.0.0,,,12-09-2025 11:05:07,12-09-2025 11:05:09,2.010s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Awasrik  Log in/input_Username_txtpassword""), password)",Chrome 133.0.0.0,,,12-09-2025 11:05:09,12-09-2025 11:05:09,0.557s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Log in/button_Login""))",Chrome 133.0.0.0,,,12-09-2025 11:05:09,12-09-2025 11:05:10,0.429s,PASSED
+"verifyTextPresent(""Next Project"", false)",Chrome 133.0.0.0,,,12-09-2025 11:05:10,12-09-2025 11:05:12,1.792s,PASSED
+,,,,,,,
+Test Cases/Awasrik/Profile Pemeriksa/TC-001_Profile_Pemeriksa,Chrome 133.0.0.0,,,12-09-2025 11:05:12,12-09-2025 11:05:18,6.054s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Selamat Datang/a_Setting""))",Chrome 133.0.0.0,,,12-09-2025 11:05:12,12-09-2025 11:05:12,0.397s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Selamat Datang/p_Profile Pemeriksa""))",Chrome 133.0.0.0,,,12-09-2025 11:05:12,12-09-2025 11:05:13,0.783s,PASSED
+"setText(findTestObject(""Object Repository/Page_Awasrik  Profile Pemeriksa/input_Nama Pemeriksa_nama_user""), ""Steven Chou"")",Chrome 133.0.0.0,,,12-09-2025 11:05:13,12-09-2025 11:05:14,0.945s,PASSED
+"setText(findTestObject(""Object Repository/Page_Awasrik  Profile Pemeriksa/input_Nomor HP Pemeriksa_nohp_user""), ""081227448207"")",Chrome 133.0.0.0,,,12-09-2025 11:05:14,12-09-2025 11:05:15,0.706s,PASSED
+"setText(findTestObject(""Object Repository/Page_Awasrik  Profile Pemeriksa/input_Email Pemeriksa_email_user""), ""stevenchou@gmail.com"")",Chrome 133.0.0.0,,,12-09-2025 11:05:15,12-09-2025 11:05:15,0.728s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Profile Pemeriksa/button_Simpan""))",Chrome 133.0.0.0,,,12-09-2025 11:05:15,12-09-2025 11:05:16,0.426s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_Awasrik  Profile Pemeriksa/h2_Proses Berhasil""), 10)",Chrome 133.0.0.0,,,12-09-2025 11:05:16,12-09-2025 11:05:17,1.085s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Awasrik  Profile Pemeriksa/h2_Proses Berhasil""), ""Proses Berhasil"")",Chrome 133.0.0.0,,,12-09-2025 11:05:17,12-09-2025 11:05:17,0.336s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Profile Pemeriksa/button_OK""))",Chrome 133.0.0.0,,,12-09-2025 11:05:17,12-09-2025 11:05:18,0.426s,PASSED

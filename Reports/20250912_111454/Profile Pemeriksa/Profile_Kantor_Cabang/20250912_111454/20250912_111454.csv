@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Profile_Kantor_Cabang,Chrome 133.0.0.0,,,12-09-2025 11:15:01,12-09-2025 11:15:21,19.749s,PASSED
+,,,,,,,
+Test Cases/Awasrik/Login/TC-001_Login_User_Valid,Chrome 133.0.0.0,,,12-09-2025 11:15:02,12-09-2025 11:15:14,12.199s,PASSED
+"openBrowser("""")",Chrome 133.0.0.0,,,12-09-2025 11:15:03,12-09-2025 11:15:07,4.265s,PASSED
+"navigateToUrl(""https://qc167.bpjs-kesehatan.go.id/awasrik/Home/Login"")",Chrome 133.0.0.0,,,12-09-2025 11:15:07,12-09-2025 11:15:10,2.769s,PASSED
+"setText(findTestObject(""Object Repository/Page_Awasrik  Log in/input_v 5.2.0_txtusername""), username)",Chrome 133.0.0.0,,,12-09-2025 11:15:10,12-09-2025 11:15:12,1.766s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Awasrik  Log in/input_Username_txtpassword""), password)",Chrome 133.0.0.0,,,12-09-2025 11:15:12,12-09-2025 11:15:12,0.530s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Log in/button_Login""))",Chrome 133.0.0.0,,,12-09-2025 11:15:12,12-09-2025 11:15:13,0.422s,PASSED
+"verifyTextPresent(""Next Project"", false)",Chrome 133.0.0.0,,,12-09-2025 11:15:13,12-09-2025 11:15:14,1.824s,PASSED
+,,,,,,,
+Test Cases/Awasrik/Profile Pemeriksa/TC-002_Profile_Kantor_Cabang,Chrome 133.0.0.0,,,12-09-2025 11:15:14,12-09-2025 11:15:21,6.608s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Selamat Datang/a_Setting""))",Chrome 133.0.0.0,,,12-09-2025 11:15:15,12-09-2025 11:15:15,0.397s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Selamat Datang/p_Profile Kantor Cabang""))",Chrome 133.0.0.0,,,12-09-2025 11:15:15,12-09-2025 11:15:16,0.851s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Profile Kantor Cabang/input_Alamat Kantor_alamat_kantor""))",Chrome 133.0.0.0,,,12-09-2025 11:15:16,12-09-2025 11:15:16,0.656s,PASSED
+"doubleClick(findTestObject(""Object Repository/Page_Awasrik  Profile Kantor Cabang/input_Alamat Kantor_alamat_kantor""))",Chrome 133.0.0.0,,,12-09-2025 11:15:16,12-09-2025 11:15:17,0.574s,PASSED
+"setText(findTestObject(""Object Repository/Page_Awasrik  Profile Kantor Cabang/input_Alamat Kantor_alamat_kantor""), ""Jakarta"")",Chrome 133.0.0.0,,,12-09-2025 11:15:17,12-09-2025 11:15:18,0.736s,PASSED
+"setText(findTestObject(""Object Repository/Page_Awasrik  Profile Kantor Cabang/input_Nama Kepala Bagian_nm_kabag""), ""Sudirman"")",Chrome 133.0.0.0,,,12-09-2025 11:15:18,12-09-2025 11:15:18,0.695s,PASSED
+"setText(findTestObject(""Object Repository/Page_Awasrik  Profile Kantor Cabang/input_Nama Kepala Cabang_nm_kacab""), ""Widia Susanti"")",Chrome 133.0.0.0,,,12-09-2025 11:15:18,12-09-2025 11:15:19,0.705s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Profile Kantor Cabang/button_Simpan""))",Chrome 133.0.0.0,,,12-09-2025 11:15:19,12-09-2025 11:15:20,0.421s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_Awasrik  Profile Pemeriksa/h2_Proses Berhasil""), 10)",Chrome 133.0.0.0,,,12-09-2025 11:15:20,12-09-2025 11:15:20,0.736s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Awasrik  Profile Pemeriksa/h2_Proses Berhasil""), ""Proses Berhasil"")",Chrome 133.0.0.0,,,12-09-2025 11:15:20,12-09-2025 11:15:21,0.306s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Profile Kantor Cabang/button_OK""))",Chrome 133.0.0.0,,,12-09-2025 11:15:21,12-09-2025 11:15:21,0.357s,PASSED

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_Kabag,Chrome 133.0.0.0,,,12-09-2025 10:46:58,12-09-2025 10:47:12,14.477s,PASSED
+,,,,,,,
+Test Cases/Awasrik/Login/TC-001_Login_User_Valid,Chrome 133.0.0.0,,,12-09-2025 10:46:58,12-09-2025 10:47:12,13.948s,PASSED
+"openBrowser("""")",Chrome 133.0.0.0,,,12-09-2025 10:46:58,12-09-2025 10:47:02,3.699s,PASSED
+"navigateToUrl(""https://qc167.bpjs-kesehatan.go.id/awasrik/Home/Login"")",Chrome 133.0.0.0,,,12-09-2025 10:47:02,12-09-2025 10:47:07,4.929s,PASSED
+"setText(findTestObject(""Object Repository/Page_Awasrik  Log in/input_v 5.2.0_txtusername""), username)",Chrome 133.0.0.0,,,12-09-2025 10:47:07,12-09-2025 10:47:08,1.305s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Awasrik  Log in/input_Username_txtpassword""), password)",Chrome 133.0.0.0,,,12-09-2025 10:47:08,12-09-2025 10:47:09,0.489s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Log in/button_Login""))",Chrome 133.0.0.0,,,12-09-2025 10:47:09,12-09-2025 10:47:09,0.405s,PASSED
+"verifyTextPresent(""Next Project"", false)",Chrome 133.0.0.0,,,12-09-2025 10:47:09,12-09-2025 10:47:12,2.731s,PASSED

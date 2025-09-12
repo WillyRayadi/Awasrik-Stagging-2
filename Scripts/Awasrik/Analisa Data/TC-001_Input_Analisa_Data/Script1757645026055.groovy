@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 // ✅ Panggil test case login
-WebUI.callTestCase(findTestCase('Awasrik/Login/TC-001_Login_User_Valid'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Awasrik/Login/TC-001_Login_User_Valid'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_Awasrik  Selamat Datang/p_Analisa Data Mandiri'))
 

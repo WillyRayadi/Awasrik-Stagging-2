@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-002_Profile_Kantor_Cabang</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3d09bd75-0cce-4764-b4de-533a9b6e6da2</testCaseGuid>
+</TestCaseEntity>

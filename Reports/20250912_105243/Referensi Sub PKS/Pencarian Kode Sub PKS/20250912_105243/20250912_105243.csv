@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pencarian Kode Sub PKS,Chrome 133.0.0.0,,,12-09-2025 10:52:49,12-09-2025 10:53:12,22.802s,PASSED
+,,,,,,,
+Test Cases/Awasrik/Login/TC-001_Login_User_Valid,Chrome 133.0.0.0,,,12-09-2025 10:52:50,12-09-2025 10:53:04,14.071s,PASSED
+"openBrowser("""")",Chrome 133.0.0.0,,,12-09-2025 10:52:50,12-09-2025 10:52:53,3.430s,PASSED
+"navigateToUrl(""https://qc167.bpjs-kesehatan.go.id/awasrik/Home/Login"")",Chrome 133.0.0.0,,,12-09-2025 10:52:53,12-09-2025 10:52:59,5.922s,PASSED
+"setText(findTestObject(""Object Repository/Page_Awasrik  Log in/input_v 5.2.0_txtusername""), username)",Chrome 133.0.0.0,,,12-09-2025 10:52:59,12-09-2025 10:53:01,1.249s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Awasrik  Log in/input_Username_txtpassword""), password)",Chrome 133.0.0.0,,,12-09-2025 10:53:01,12-09-2025 10:53:01,0.495s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Log in/button_Login""))",Chrome 133.0.0.0,,,12-09-2025 10:53:01,12-09-2025 10:53:02,0.421s,PASSED
+"verifyTextPresent(""Next Project"", false)",Chrome 133.0.0.0,,,12-09-2025 10:53:02,12-09-2025 10:53:04,2.031s,PASSED
+,,,,,,,
+Test Cases/Awasrik/Referensi Sub PKS/TC-001_Search_Sub_PKS,Chrome 133.0.0.0,,,12-09-2025 10:53:04,12-09-2025 10:53:12,8.070s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Selamat Datang/a_Referensi""))",Chrome 133.0.0.0,,,12-09-2025 10:53:04,12-09-2025 10:53:04,0.387s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Selamat Datang/p_Referensi Sub PKS""))",Chrome 133.0.0.0,,,12-09-2025 10:53:04,12-09-2025 10:53:06,1.726s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/button_Badan Usaha_btnSearchBU""))",Chrome 133.0.0.0,,,12-09-2025 10:53:06,12-09-2025 10:53:07,0.688s,PASSED
+"setText(findTestObject(""Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/input_Opsi Pencarian_paramCariBU""), ""cipta"")",Chrome 133.0.0.0,,,12-09-2025 10:53:07,12-09-2025 10:53:07,0.876s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/button_Cari""))",Chrome 133.0.0.0,,,12-09-2025 10:53:07,12-09-2025 10:53:09,1.200s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/button_Pilih""))",Chrome 133.0.0.0,,,12-09-2025 10:53:09,12-09-2025 10:53:09,0.606s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/button_Cari_1""))",Chrome 133.0.0.0,,,12-09-2025 10:53:09,12-09-2025 10:53:10,0.414s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/span_Excel""))",Chrome 133.0.0.0,,,12-09-2025 10:53:10,12-09-2025 10:53:10,0.594s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/span_CSV""))",Chrome 133.0.0.0,,,12-09-2025 10:53:10,12-09-2025 10:53:11,0.562s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Referensi Sub PKS Badan Usaha/span_Print""))",Chrome 133.0.0.0,,,12-09-2025 10:53:11,12-09-2025 10:53:12,0.839s,PASSED

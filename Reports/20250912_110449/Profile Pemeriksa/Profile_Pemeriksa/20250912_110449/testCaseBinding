@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/Awasrik/Login/TC-001_Login_User_Valid","testCaseId":"Test Cases/Awasrik/Login/TC-001_Login_User_Valid","iterationVariableName":"","bindedValues":{"password":"GlobalVariable.passwordro1","username":"GlobalVariable.userro1"}}
+{"testCaseName":"Test Cases/Awasrik/Profile Pemeriksa/TC-001_Profile_Pemeriksa","testCaseId":"Test Cases/Awasrik/Profile Pemeriksa/TC-001_Profile_Pemeriksa","iterationVariableName":""}

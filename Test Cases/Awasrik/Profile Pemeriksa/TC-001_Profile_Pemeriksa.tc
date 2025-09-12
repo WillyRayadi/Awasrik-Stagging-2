@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-001_Profile_Pemeriksa</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d87be5fa-af48-4b2c-81b5-ad40c78f1cb1</testCaseGuid>
+</TestCaseEntity>

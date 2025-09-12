@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Profile_Pemeriksa" time="18.903" tests="2" failures="0" errors="0">
+   <testsuite name="Profile_Pemeriksa" tests="2" failures="0" errors="0" time="18.903" skipped="0" timestamp="12-09-2025T11:04:59" hostname="Asani - 0000-willy" id="Test Suites/Profile Pemeriksa/Profile_Pemeriksa">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Asani\\Documents\\GitHub\\Awasrik-Stagging-2\\Reports\\20250912_110449\\Profile Pemeriksa\\Profile_Pemeriksa\\20250912_110449"/>
+         <property name="logFiles" value="C:\\Users\\Asani\\Documents\\GitHub\\Awasrik-Stagging-2\\Reports\\20250912_110449\\Profile Pemeriksa\\Profile_Pemeriksa\\20250912_110449\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Asani - 0000-willy"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 133.0.0.0"/>
+         <property name="hostAddress" value="172.120.40.38"/>
+         <property name="sessionId" value="c57c99754b93aab1b66524d729a1a0d6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Awasrik/Login/TC-001_Login_User_Valid" time="11.871" classname="Test Cases/Awasrik/Login/TC-001_Login_User_Valid" status="PASSED">
+         <system-out><![CDATA[12-09-2025T11:05:00 - [TEST_CASE][PASSED] - Test Cases/Awasrik/Login/TC-001_Login_User_Valid: Test Cases/Awasrik/Login/TC-001_Login_User_Valid
+
+12-09-2025T11:05:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-09-2025T11:05:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-09-2025T11:05:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-09-2025T11:05:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-09-2025T11:05:05 - [TEST_STEP][PASSED] - navigateToUrl("https://qc167.bpjs-kesehatan.go.id/awasrik/Home/Login"): Navigate to 'https://qc167.bpjs-kesehatan.go.id/awasrik/Home/Login' successfully
+
+12-09-2025T11:05:07 - [MESSAGE][PASSED] - Navigate to 'https://qc167.bpjs-kesehatan.go.id/awasrik/Home/Login' successfully
+
+12-09-2025T11:05:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Awasrik  Log in/input_v 5.2.0_txtusername"), username): Text 'adiprat' is set on object 'Object Repository/Page_Awasrik  Log in/input_v 5.2.0_txtusername'
+
+12-09-2025T11:05:09 - [MESSAGE][PASSED] - Text 'adiprat' is set on object 'Object Repository/Page_Awasrik  Log in/input_v 5.2.0_txtusername'
+
+12-09-2025T11:05:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Awasrik  Log in/input_Username_txtpassword"), password): Text ****** has been set on object 'Object Repository/Page_Awasrik  Log in/input_Username_txtpassword'
+
+12-09-2025T11:05:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Awasrik  Log in/input_Username_txtpassword'
+
+12-09-2025T11:05:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Awasrik  Log in/button_Login")): Object: 'Object Repository/Page_Awasrik  Log in/button_Login' is clicked on
+
+12-09-2025T11:05:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Awasrik  Log in/button_Login' is clicked on
+
+12-09-2025T11:05:10 - [TEST_STEP][PASSED] - verifyTextPresent("Next Project", false): Text 'Next Project' is present on page 
+
+12-09-2025T11:05:12 - [MESSAGE][PASSED] - Text 'Next Project' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Awasrik/Profile Pemeriksa/TC-001_Profile_Pemeriksa" time="6.054" classname="Test Cases/Awasrik/Profile Pemeriksa/TC-001_Profile_Pemeriksa" status="PASSED">
+         <system-out><![CDATA[12-09-2025T11:05:12 - [TEST_CASE][PASSED] - Test Cases/Awasrik/Profile Pemeriksa/TC-001_Profile_Pemeriksa: Test Cases/Awasrik/Profile Pemeriksa/TC-001_Profile_Pemeriksa
+
+12-09-2025T11:05:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Awasrik  Selamat Datang/a_Setting")): Object: 'Object Repository/Page_Awasrik  Selamat Datang/a_Setting' is clicked on
+
+12-09-2025T11:05:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Awasrik  Selamat Datang/a_Setting' is clicked on
+
+12-09-2025T11:05:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Awasrik  Selamat Datang/p_Profile Pemeriksa")): Object: 'Object Repository/Page_Awasrik  Selamat Datang/p_Profile Pemeriksa' is clicked on
+
+12-09-2025T11:05:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Awasrik  Selamat Datang/p_Profile Pemeriksa' is clicked on
+
+12-09-2025T11:05:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Awasrik  Profile Pemeriksa/input_Nama Pemeriksa_nama_user"), "Steven Chou"): Text 'Steven Chou' is set on object 'Object Repository/Page_Awasrik  Profile Pemeriksa/input_Nama Pemeriksa_nama_user'
+
+12-09-2025T11:05:14 - [MESSAGE][PASSED] - Text 'Steven Chou' is set on object 'Object Repository/Page_Awasrik  Profile Pemeriksa/input_Nama Pemeriksa_nama_user'
+
+12-09-2025T11:05:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Awasrik  Profile Pemeriksa/input_Nomor HP Pemeriksa_nohp_user"), "081227448207"): Text '081227448207' is set on object 'Object Repository/Page_Awasrik  Profile Pemeriksa/input_Nomor HP Pemeriksa_nohp_user'
+
+12-09-2025T11:05:15 - [MESSAGE][PASSED] - Text '081227448207' is set on object 'Object Repository/Page_Awasrik  Profile Pemeriksa/input_Nomor HP Pemeriksa_nohp_user'
+
+12-09-2025T11:05:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Awasrik  Profile Pemeriksa/input_Email Pemeriksa_email_user"), "stevenchou@gmail.com"): Text 'stevenchou@gmail.com' is set on object 'Object Repository/Page_Awasrik  Profile Pemeriksa/input_Email Pemeriksa_email_user'
+
+12-09-2025T11:05:15 - [MESSAGE][PASSED] - Text 'stevenchou@gmail.com' is set on object 'Object Repository/Page_Awasrik  Profile Pemeriksa/input_Email Pemeriksa_email_user'
+
+12-09-2025T11:05:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Awasrik  Profile Pemeriksa/button_Simpan")): Object: 'Object Repository/Page_Awasrik  Profile Pemeriksa/button_Simpan' is clicked on
+
+12-09-2025T11:05:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Awasrik  Profile Pemeriksa/button_Simpan' is clicked on
+
+12-09-2025T11:05:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Awasrik  Profile Pemeriksa/h2_Proses Berhasil"), 10): Object 'Object Repository/Page_Awasrik  Profile Pemeriksa/h2_Proses Berhasil' is visible
+
+12-09-2025T11:05:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Awasrik  Profile Pemeriksa/h2_Proses Berhasil' is visible
+
+12-09-2025T11:05:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Awasrik  Profile Pemeriksa/h2_Proses Berhasil"), "Proses Berhasil"): Actual text and expected text of test object 'Object Repository/Page_Awasrik  Profile Pemeriksa/h2_Proses Berhasil' are matched.
+
+12-09-2025T11:05:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Awasrik  Profile Pemeriksa/h2_Proses Berhasil' are matched.
+
+12-09-2025T11:05:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Awasrik  Profile Pemeriksa/button_OK")): Object: 'Object Repository/Page_Awasrik  Profile Pemeriksa/button_OK' is clicked on
+
+12-09-2025T11:05:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Awasrik  Profile Pemeriksa/button_OK' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-09-2025T11:04:59 - [TEST_SUITE][PASSED] - Profile_Pemeriksa: Test Cases/Awasrik/Profile Pemeriksa/TC-001_Profile_Pemeriksa]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

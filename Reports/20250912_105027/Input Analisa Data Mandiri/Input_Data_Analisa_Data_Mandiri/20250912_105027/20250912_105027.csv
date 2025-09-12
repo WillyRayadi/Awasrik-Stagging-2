@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Input_Data_Analisa_Data_Mandiri,Chrome 133.0.0.0,,,12-09-2025 10:50:33,12-09-2025 10:50:51,17.663s,PASSED
+,,,,,,,
+Test Cases/Awasrik/Login/TC-001_Login_User_Valid,Chrome 133.0.0.0,,,12-09-2025 10:50:34,12-09-2025 10:50:45,10.971s,PASSED
+"openBrowser("""")",Chrome 133.0.0.0,,,12-09-2025 10:50:34,12-09-2025 10:50:38,3.963s,PASSED
+"navigateToUrl(""https://qc167.bpjs-kesehatan.go.id/awasrik/Home/Login"")",Chrome 133.0.0.0,,,12-09-2025 10:50:38,12-09-2025 10:50:41,2.864s,PASSED
+"setText(findTestObject(""Object Repository/Page_Awasrik  Log in/input_v 5.2.0_txtusername""), username)",Chrome 133.0.0.0,,,12-09-2025 10:50:41,12-09-2025 10:50:42,0.954s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Awasrik  Log in/input_Username_txtpassword""), password)",Chrome 133.0.0.0,,,12-09-2025 10:50:42,12-09-2025 10:50:42,0.559s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Log in/button_Login""))",Chrome 133.0.0.0,,,12-09-2025 10:50:42,12-09-2025 10:50:43,0.458s,PASSED
+"verifyTextPresent(""Next Project"", false)",Chrome 133.0.0.0,,,12-09-2025 10:50:43,12-09-2025 10:50:45,1.775s,PASSED
+,,,,,,,
+Test Cases/Awasrik/Analisa Data/TC-001_Input_Analisa_Data,Chrome 133.0.0.0,,,12-09-2025 10:50:45,12-09-2025 10:50:51,6.146s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Selamat Datang/p_Analisa Data Mandiri""))",Chrome 133.0.0.0,,,12-09-2025 10:50:45,12-09-2025 10:50:46,0.852s,PASSED
+"setText(findTestObject(""Object Repository/Page_Awasrik  Analisa Data Mandiri/input_Kode BU PKS_txtKodeBUSar""), ""01732349"")",Chrome 133.0.0.0,,,12-09-2025 10:50:46,12-09-2025 10:50:47,1.032s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Analisa Data Mandiri/button_Cari""))",Chrome 133.0.0.0,,,12-09-2025 10:50:47,12-09-2025 10:50:47,0.370s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Analisa Data Mandiri/button_Tambah""))",Chrome 133.0.0.0,,,12-09-2025 10:50:47,12-09-2025 10:50:48,0.797s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Analisa Data Mandiri/input_Tanggal Pemeriksaan_swalTglPeriksa""))",Chrome 133.0.0.0,,,12-09-2025 10:50:48,12-09-2025 10:50:48,0.547s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Analisa Data Mandiri/td_13""))",Chrome 133.0.0.0,,,12-09-2025 10:50:48,12-09-2025 10:50:49,0.599s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Analisa Data Mandiri/button_Simpan""))",Chrome 133.0.0.0,,,12-09-2025 10:50:49,12-09-2025 10:50:50,0.566s,PASSED
+"if (verifyTextPresent(""Progress Berhasil"", false, OPTIONAL))",Chrome 133.0.0.0,,,12-09-2025 10:50:50,12-09-2025 10:50:51,1.070s,PASSED
+"else if (verifyTextPresent(""Perhatian Badan Usaha ini terdapat pada data pemeriksaan kantor tahap: Perencanaan Kantor"", false, OPTIONAL))",Chrome 133.0.0.0,,,12-09-2025 10:50:51,12-09-2025 10:50:51,0.001s,PASSED
+else,Chrome 133.0.0.0,,,12-09-2025 10:50:51,12-09-2025 10:50:51,0.061s,PASSED

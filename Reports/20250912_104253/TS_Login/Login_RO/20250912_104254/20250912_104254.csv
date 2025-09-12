@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_RO,Chrome 133.0.0.0,,,12-09-2025 10:43:00,12-09-2025 10:43:28,27.934s,FAILED
+,,,,,,,
+Test Cases/Awasrik/Login/TC-001_Login_User_Valid,Chrome 133.0.0.0,,,12-09-2025 10:43:19,12-09-2025 10:43:28,9.115s,FAILED
+"openBrowser("""")",Chrome 133.0.0.0,,,12-09-2025 10:43:19,12-09-2025 10:43:21,2.038s,PASSED
+"navigateToUrl(""https://qc167.bpjs-kesehatan.go.id/awasrik/Home/Login"")",Chrome 133.0.0.0,,,12-09-2025 10:43:21,12-09-2025 10:43:22,1.169s,PASSED
+"setText(findTestObject(""Object Repository/Page_Awasrik  Log in/input_v 5.2.0_txtusername""), username)",Chrome 133.0.0.0,,,12-09-2025 10:43:22,12-09-2025 10:43:28,5.859s,FAILED

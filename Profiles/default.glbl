@@ -4,4 +4,54 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'09004'</initValue>
+      <name>userro</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'NN8jmKmNb6fPEq3QqSo5NA=='</initValue>
+      <name>passwordro</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'08010'</initValue>
+      <name>userkabag</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'NN8jmKmNb6fPEq3QqSo5NA=='</initValue>
+      <name>passwordkabag</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'kc1101'</initValue>
+      <name>userkacab</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'NN8jmKmNb6fPEq3QqSo5NA=='</initValue>
+      <name>passwordkacab</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'adiprat'</initValue>
+      <name>userro1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1qi2QsKjMxJ7FRgNq4cfguPIqnYASOx9'</initValue>
+      <name>passwordro1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'jadit'</initValue>
+      <name>userro2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'i/MO9i69dhRMPtBeVm9qpw=='</initValue>
+      <name>passwordro2</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
