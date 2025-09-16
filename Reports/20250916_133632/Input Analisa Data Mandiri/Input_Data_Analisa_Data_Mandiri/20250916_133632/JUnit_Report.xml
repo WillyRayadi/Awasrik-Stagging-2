@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Input_Data_Analisa_Data_Mandiri" time="29.009" tests="2" failures="0" errors="1">
+   <testsuite name="Input_Data_Analisa_Data_Mandiri" tests="2" failures="0" errors="1" time="29.009" skipped="0" timestamp="16-09-2025T13:36:40" hostname="Asani - 0000-willy" id="Test Suites/Input Analisa Data Mandiri/Input_Data_Analisa_Data_Mandiri">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Asani\\Documents\\GitHub\\Awasrik-Stagging-2\\Reports\\20250916_133632\\Input Analisa Data Mandiri\\Input_Data_Analisa_Data_Mandiri\\20250916_133632"/>
+         <property name="logFiles" value="C:\\Users\\Asani\\Documents\\GitHub\\Awasrik-Stagging-2\\Reports\\20250916_133632\\Input Analisa Data Mandiri\\Input_Data_Analisa_Data_Mandiri\\20250916_133632\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Asani - 0000-willy"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 133.0.0.0"/>
+         <property name="hostAddress" value="172.120.40.38"/>
+         <property name="sessionId" value="a79a485c8a869d9807987fcd2c75eb55"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Awasrik/Login/TC-001_Login_User_Valid" time="23.714" classname="Test Cases/Awasrik/Login/TC-001_Login_User_Valid" status="PASSED">
+         <system-out><![CDATA[16-09-2025T13:36:41 - [TEST_CASE][PASSED] - Test Cases/Awasrik/Login/TC-001_Login_User_Valid: Test Cases/Awasrik/Login/TC-001_Login_User_Valid
+
+16-09-2025T13:36:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-09-2025T13:36:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-09-2025T13:36:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-09-2025T13:36:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-09-2025T13:36:46 - [TEST_STEP][PASSED] - navigateToUrl("https://qc167.bpjs-kesehatan.go.id/awasrik/Home/Login"): Navigate to 'https://qc167.bpjs-kesehatan.go.id/awasrik/Home/Login' successfully
+
+16-09-2025T13:36:52 - [MESSAGE][PASSED] - Navigate to 'https://qc167.bpjs-kesehatan.go.id/awasrik/Home/Login' successfully
+
+16-09-2025T13:36:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Awasrik  Log in/input_v 5.2.0_txtusername"), username): Text '09004' is set on object 'Object Repository/Page_Awasrik  Log in/input_v 5.2.0_txtusername'
+
+16-09-2025T13:36:53 - [MESSAGE][PASSED] - Text '09004' is set on object 'Object Repository/Page_Awasrik  Log in/input_v 5.2.0_txtusername'
+
+16-09-2025T13:36:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Awasrik  Log in/input_Username_txtpassword"), password): Text ****** has been set on object 'Object Repository/Page_Awasrik  Log in/input_Username_txtpassword'
+
+16-09-2025T13:36:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Awasrik  Log in/input_Username_txtpassword'
+
+16-09-2025T13:36:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Awasrik  Log in/button_Login")): Object: 'Object Repository/Page_Awasrik  Log in/button_Login' is clicked on
+
+16-09-2025T13:36:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Awasrik  Log in/button_Login' is clicked on
+
+16-09-2025T13:36:54 - [TEST_STEP][PASSED] - verifyTextPresent("Next Project", false): Text 'Next Project' is present on page 
+
+16-09-2025T13:37:04 - [MESSAGE][PASSED] - Text 'Next Project' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Awasrik/Analisa Data/TC-001_Input_Analisa_Data" time="1.112" classname="Test Cases/Awasrik/Analisa Data/TC-001_Input_Analisa_Data" status="ERROR">
+         <error type="ERROR" message="Test Cases/Awasrik/Analisa Data/TC-001_Input_Analisa_Data FAILED.&#xa;Reason:&#xa;java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Data BU' because (of) 'java.io.FileNotFoundException: C:\Users\Asani\Downloads\BU_Data.xlsx'&#xa;	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)&#xa;	at TC-001_Input_Analisa_Data.run(TC-001_Input_Analisa_Data:25)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1758004592483.run(TempTestSuite1758004592483.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[16-09-2025T13:37:08 - [TEST_CASE][ERROR] - Test Cases/Awasrik/Analisa Data/TC-001_Input_Analisa_Data: Test Cases/Awasrik/Analisa Data/TC-001_Input_Analisa_Data FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Data BU' because (of) 'java.io.FileNotFoundException: C:\Users\Asani\Downloads\BU_Data.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at TC-001_Input_Analisa_Data.run(TC-001_Input_Analisa_Data:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1758004592483.run(TempTestSuite1758004592483.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+16-09-2025T13:37:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Awasrik  Selamat Datang/p_Analisa Data Mandiri")): Object: 'Object Repository/Page_Awasrik  Selamat Datang/p_Analisa Data Mandiri' is clicked on
+
+16-09-2025T13:37:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Awasrik  Selamat Datang/p_Analisa Data Mandiri' is clicked on
+
+16-09-2025T13:37:09 - [TEST_STEP][ERROR] - dataBU = findTestData("Data Files/Data BU"): Test Cases/Awasrik/Analisa Data/TC-001_Input_Analisa_Data FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Data BU' because (of) 'java.io.FileNotFoundException: C:\Users\Asani\Downloads\BU_Data.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at TC-001_Input_Analisa_Data.run(TC-001_Input_Analisa_Data:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1758004592483.run(TempTestSuite1758004592483.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+16-09-2025T13:37:09 - [MESSAGE][ERROR] - Test Cases/Awasrik/Analisa Data/TC-001_Input_Analisa_Data FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Data BU' because (of) 'java.io.FileNotFoundException: C:\Users\Asani\Downloads\BU_Data.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at TC-001_Input_Analisa_Data.run(TC-001_Input_Analisa_Data:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1758004592483.run(TempTestSuite1758004592483.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[16-09-2025T13:37:08 - [TEST_CASE][ERROR] - Test Cases/Awasrik/Analisa Data/TC-001_Input_Analisa_Data: Test Cases/Awasrik/Analisa Data/TC-001_Input_Analisa_Data FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Data BU' because (of) 'java.io.FileNotFoundException: C:\Users\Asani\Downloads\BU_Data.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at TC-001_Input_Analisa_Data.run(TC-001_Input_Analisa_Data:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1758004592483.run(TempTestSuite1758004592483.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-09-2025T13:36:40 - [TEST_SUITE][ERROR] - Input_Data_Analisa_Data_Mandiri: Test Cases/Awasrik/Analisa Data/TC-001_Input_Analisa_Data FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Data BU' because (of) 'java.io.FileNotFoundException: C:\Users\Asani\Downloads\BU_Data.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at TC-001_Input_Analisa_Data.run(TC-001_Input_Analisa_Data:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1758004592483.run(TempTestSuite1758004592483.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[16-09-2025T13:36:40 - [TEST_SUITE][ERROR] - Input_Data_Analisa_Data_Mandiri: Test Cases/Awasrik/Analisa Data/TC-001_Input_Analisa_Data FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Data BU' because (of) 'java.io.FileNotFoundException: C:\Users\Asani\Downloads\BU_Data.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at TC-001_Input_Analisa_Data.run(TC-001_Input_Analisa_Data:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1758004592483.run(TempTestSuite1758004592483.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

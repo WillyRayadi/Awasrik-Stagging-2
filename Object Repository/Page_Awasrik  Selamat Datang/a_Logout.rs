@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Logout</name>
+   <tag></tag>
+   <elementGuidId>928a2b02-d9aa-4ad8-8ba2-f88885f8b368</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Logout')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-secondary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot; Logout&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>74f6a219-b4ec-42b3-9d7a-a257ec7e62eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://qc167.bpjs-kesehatan.go.id/awasrik/Home/Logout</value>
+      <webElementGuid>7167d6e3-813c-4f12-9618-3f9826041d0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-secondary</value>
+      <webElementGuid>36401c00-8e84-4dbe-b668-03f386abcc87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Logout</value>
+      <webElementGuid>173bbf9f-39f8-46c1-a2dc-5086c735225f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;sidebar-expand-lg bg-body-tertiary sidebar-open app-loaded&quot;]/div[@class=&quot;app-wrapper&quot;]/nav[@class=&quot;app-header navbar navbar-expand bg-body&quot;]/div[@class=&quot;container-fluid&quot;]/ul[@class=&quot;navbar-nav ms-auto&quot;]/li[@class=&quot;nav-item dropdown user-menu&quot;]/ul[@class=&quot;dropdown-menu dropdown-menu-lg dropdown-menu-end show&quot;]/li[@class=&quot;user-footer&quot;]/a[@class=&quot;btn btn-secondary&quot;]</value>
+      <webElementGuid>046ba5e9-f437-4e54-aa48-a2964c55d96e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Logout')]</value>
+      <webElementGuid>bff98dfa-3c27-4955-a58b-e9f16a83a8fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Semarang'])[1]/following::a[1]</value>
+      <webElementGuid>591c99b7-ce55-4c0a-9721-8f2df31c9a81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Staf RO'])[1]/following::a[1]</value>
+      <webElementGuid>2d32cf19-d5dd-4c8f-9a38-2d9ee93b06c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Awasrik'])[1]/preceding::a[1]</value>
+      <webElementGuid>17210424-03d5-434c-a02e-6a88c165da05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Selamat Datang'])[1]/preceding::a[31]</value>
+      <webElementGuid>831e1c25-6148-4ccc-9606-fd0284d023a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Logout']/parent::*</value>
+      <webElementGuid>5bf8f395-bca0-4b75-b751-619b1379e555</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://qc167.bpjs-kesehatan.go.id/awasrik/Home/Logout')]</value>
+      <webElementGuid>c09ea064-b640-4265-b75e-7e6130df1834</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a</value>
+      <webElementGuid>9ff930eb-9ddd-4802-a1b5-1640b6920b14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://qc167.bpjs-kesehatan.go.id/awasrik/Home/Logout' and (text() = ' Logout' or . = ' Logout')]</value>
+      <webElementGuid>457f3811-6d9f-44ad-8b74-564010e627b7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -19,34 +19,50 @@ import org.openqa.selenium.Keys as Keys
 
 // ✅ Panggil test case login
 //WebUI.callTestCase(findTestCase('Awasrik/Login/TC-001_Login_User_Valid'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Object Repository/Page_Awasrik  Selamat Datang/p_Analisa Data Mandiri'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Awasrik  Analisa Data Mandiri/input_Kode BU PKS_txtKodeBUSar'), '01732349')
+//WebUI.setText(findTestObject('Object Repository/Page_Awasrik  Analisa Data Mandiri/input_Kode BU PKS_txtKodeBUSar'), '01732349')
+def dataBU = findTestData('Data Files/Data BU')
 
-WebUI.click(findTestObject('Object Repository/Page_Awasrik  Analisa Data Mandiri/button_Cari'))
+for (int i = 1; i <= dataBU.getRowNumbers(); i++) {
+    def kodeBU = dataBU.getValue('kodeBU', i)
 
-WebUI.click(findTestObject('Object Repository/Page_Awasrik  Analisa Data Mandiri/button_Tambah'))
+    WebUI.comment('▶️ Jalankan test dengan BU: ' + kodeBU)
 
-WebUI.click(findTestObject('Object Repository/Page_Awasrik  Analisa Data Mandiri/input_Tanggal Pemeriksaan_swalTglPeriksa'))
+    WebUI.setText(findTestObject('Page_Awasrik  Analisa Data Mandiri/input_Kode BU PKS_txtKodeBUSar'), kodeBU)
 
-WebUI.click(findTestObject('Object Repository/Page_Awasrik  Analisa Data Mandiri/td_13'))
+    //WebUI.click(findTestObject('Page_Awasrik  Analisa Data Mandiri/button_Cari'))
+    // lanjutkan step selanjutnya...
+    WebUI.click(findTestObject('Object Repository/Page_Awasrik  Analisa Data Mandiri/button_Cari'))
 
-WebUI.click(findTestObject('Object Repository/Page_Awasrik  Analisa Data Mandiri/button_Simpan'))
+    WebUI.click(findTestObject('Object Repository/Page_Awasrik  Analisa Data Mandiri/button_Tambah'))
 
-// 🔎 Verifikasi hasil popup
-if (WebUI.verifyTextPresent('Progress Berhasil', false, FailureHandling.OPTIONAL)) {
-    // Jika berhasil
-    WebUI.comment('✅ Data berhasil disimpan')
-    WebUI.waitForElementClickable(findTestObject('Page_Awasrik  Analisa Data Mandiri/button_OK'), 10)
-    WebUI.click(findTestObject('Page_Awasrik  Analisa Data Mandiri/button_OK'))
-} else if (WebUI.verifyTextPresent('Perhatian Badan Usaha ini terdapat pada data pemeriksaan kantor tahap: Perencanaan Kantor', false, FailureHandling.OPTIONAL)) {
-    // Jika gagal karena duplikat data di bulan yang sama
-    WebUI.comment('❌ Data gagal disimpan: BU sudah punya tanggal di bulan ini')
-    WebUI.waitForElementClickable(findTestObject('Page_Awasrik  Analisa Data Mandiri/button_OK'), 10)
-    WebUI.click(findTestObject('Page_Awasrik  Analisa Data Mandiri/button_OK'))
-} else {
-    // Jika pesan popup tidak dikenali
-    WebUI.comment('⚠️ Tidak ada popup yang sesuai ditemukan')
+    WebUI.click(findTestObject('Object Repository/Page_Awasrik  Analisa Data Mandiri/input_Tanggal Pemeriksaan_swalTglPeriksa'))
+
+    WebUI.click(findTestObject('Object Repository/Page_Awasrik  Analisa Data Mandiri/td_13'))
+
+    WebUI.click(findTestObject('Object Repository/Page_Awasrik  Analisa Data Mandiri/button_Simpan'))
+
+    // 🔎 Verifikasi hasil popup
+    if (WebUI.verifyTextPresent('Progress Berhasil', false, FailureHandling.OPTIONAL)) {
+        // Jika berhasil
+        WebUI.comment('✅ Data berhasil disimpan')
+
+        WebUI.waitForElementClickable(findTestObject('Page_Awasrik  Analisa Data Mandiri/button_OK'), 10)
+
+        WebUI.click(findTestObject('Page_Awasrik  Analisa Data Mandiri/button_OK')) // Jika gagal karena duplikat data di bulan yang sama
+        // Jika pesan popup tidak dikenali
+    } else if (WebUI.verifyTextPresent('Perhatian Badan Usaha ini terdapat pada data pemeriksaan kantor tahap: Perencanaan Kantor', 
+        false, FailureHandling.OPTIONAL)) {
+        WebUI.comment('❌ Data gagal disimpan: BU sudah punya tanggal di bulan ini')
+
+        WebUI.waitForElementClickable(findTestObject('Page_Awasrik  Analisa Data Mandiri/button_OK'), 10)
+
+        WebUI.click(findTestObject('Page_Awasrik  Analisa Data Mandiri/button_OK'))
+    } else {
+        WebUI.comment('⚠️ Tidak ada popup yang sesuai ditemukan')
+
+        WebUI.click(findTestObject('Page_Awasrik  Analisa Data Mandiri/button_OK'))
+    }
 }
 

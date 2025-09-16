@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Input_Data_Analisa_Data_Mandiri,Chrome 133.0.0.0,,,12-09-2025 16:28:12,12-09-2025 16:28:50,38.192s,PASSED
+,,,,,,,
+Test Cases/Awasrik/Login/TC-001_Login_User_Valid,Chrome 133.0.0.0,,,12-09-2025 16:28:13,12-09-2025 16:28:24,10.873s,PASSED
+"openBrowser("""")",Chrome 133.0.0.0,,,12-09-2025 16:28:13,12-09-2025 16:28:17,3.997s,PASSED
+"navigateToUrl(""https://qc167.bpjs-kesehatan.go.id/awasrik/Home/Login"")",Chrome 133.0.0.0,,,12-09-2025 16:28:17,12-09-2025 16:28:19,1.854s,PASSED
+"setText(findTestObject(""Object Repository/Page_Awasrik  Log in/input_v 5.2.0_txtusername""), username)",Chrome 133.0.0.0,,,12-09-2025 16:28:19,12-09-2025 16:28:21,1.566s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Awasrik  Log in/input_Username_txtpassword""), password)",Chrome 133.0.0.0,,,12-09-2025 16:28:21,12-09-2025 16:28:21,0.503s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Log in/button_Login""))",Chrome 133.0.0.0,,,12-09-2025 16:28:21,12-09-2025 16:28:22,0.570s,PASSED
+"verifyTextPresent(""Next Project"", false)",Chrome 133.0.0.0,,,12-09-2025 16:28:22,12-09-2025 16:28:24,1.872s,PASSED
+,,,,,,,
+Test Cases/Awasrik/Analisa Data/TC-001_Input_Analisa_Data,Chrome 133.0.0.0,,,12-09-2025 16:28:24,12-09-2025 16:28:50,26.581s,PASSED
+"click(findTestObject(""Object Repository/Page_Awasrik  Selamat Datang/p_Analisa Data Mandiri""))",Chrome 133.0.0.0,,,12-09-2025 16:28:24,12-09-2025 16:28:25,1.015s,PASSED
+"dataBU = findTestData(""Data Files/Data BU"")",Chrome 133.0.0.0,,,12-09-2025 16:28:25,12-09-2025 16:28:27,1.807s,PASSED
+"for ([i = 1, i <= dataBU.getRowNumbers(), (i++)])",Chrome 133.0.0.0,,,12-09-2025 16:28:27,12-09-2025 16:28:50,23.167s,PASSED

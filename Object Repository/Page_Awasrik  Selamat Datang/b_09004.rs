@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>b_09004</name>
+   <tag></tag>
+   <elementGuidId>b01a59b3-d5ef-4a92-884c-f85f3bdeffa7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Staf RO'])[1]/preceding::b[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;User Image Hai, 09004&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>b</value>
+      <webElementGuid>2cddde9a-8ad4-4ac4-8292-f26700be4c84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>09004</value>
+      <webElementGuid>bd4d5cdf-adf3-4d27-b9be-2d3d2d543c25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;sidebar-expand-lg bg-body-tertiary sidebar-open app-loaded&quot;]/div[@class=&quot;app-wrapper&quot;]/nav[@class=&quot;app-header navbar navbar-expand bg-body&quot;]/div[@class=&quot;container-fluid&quot;]/ul[@class=&quot;navbar-nav ms-auto&quot;]/li[@class=&quot;nav-item dropdown user-menu&quot;]/a[@class=&quot;nav-link dropdown-toggle show&quot;]/span[@class=&quot;d-none d-md-inline&quot;]/b[1]</value>
+      <webElementGuid>86c9d0cf-c387-483b-bac2-6edeafeeef79</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Staf RO'])[1]/preceding::b[1]</value>
+      <webElementGuid>2bba7503-468d-4355-b0e0-824b975e23e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Semarang'])[1]/preceding::b[1]</value>
+      <webElementGuid>0537e73e-b954-4ef3-907f-5d0891ceb741</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='09004']/parent::*</value>
+      <webElementGuid>7cff204e-ac2c-44c9-a2ea-805cd0f77ba2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//b</value>
+      <webElementGuid>7e1a6ae8-f54c-485b-90c9-a05ffd2bf635</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//b[(text() = '09004' or . = '09004')]</value>
+      <webElementGuid>547014d4-ec8d-4454-9b78-b6909b562293</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
